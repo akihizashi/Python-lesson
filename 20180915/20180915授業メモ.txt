@@ -1,0 +1,50 @@
+*参考程度
+atom
+https://atom.io/
+
+
+anacondaダウンロードまで
+「Anaconda を Windows にインストール」で検索し、トップまたはその次の記事
+ダウンロードページ
+https://www.anaconda.com/download/
+
+参考ページ下記ページ
+https://weblabo.oscasierra.net/python-anaconda-install-windows/
+VSCODEの問答はskipしてOK
+ANACONDA NAVIGATORのトップ画面が出てくればOK
+
+
+そこからJupytorの使い方へ
+jupyter notebookの使い方は下記ページを参照
+https://techacademy.jp/magazine/17430
+
+機能紹介に関するページ
+https://deepage.net/machine_learning/2016/12/13/jupyter_notebook.html
+
+・ファイル名の変更
+・基本的なプログラムの実行手段について(Hello world)
+
+
+MySQLインストール
+ダウンロードページ
+https://dev.mysql.com/downloads/mysql/5.7.html#downloads
+「Installer for windowsを選択」
+
+画面下部の下記リンクをクリック
+Windows (x86, 32-bit), MSI Installer	5.7.23	371.0M	
+Download
+(mysql-installer-community-5.7.23.0.msi)
+
+
+No thanks ,just start my downloadをクリックしないと
+スタートしない
+
+参考ページ
+https://qiita.com/a_t_a/items/69813e55a1614796059d
+Customのx64のみをダウンロード
+知識がある方はpythonのConnectを追加してもOK	
+パスワード、パスワード再入力はpasswordなどといれて通過
+
+基本文法に関して
+http://tokidoki-web.com/2016/02/python%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%96%87%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%82%84%E3%82%93%E3%82%88/
+
