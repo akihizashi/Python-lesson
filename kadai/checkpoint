@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/aki/Desktop/Python-lesson/kadai/model.tflearn"
+all_model_checkpoint_paths: "/home/aki/Desktop/Python-lesson/kadai/model.tflearn"

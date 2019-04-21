@@ -1,20 +1,40 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "How are you", "Hey", "Hello", "Good day"],
-     "responses": ["Hello, thanks for visiting", "Good to see you", "Hi there, how can I help?"],
-     "context_set": ""
-    },
+        "patterns": ["Hi", "Hey", "Hello", "Good day"],
+        "responses": ["Hello, thanks for visiting", "Good to see you", "Hi there, how can I help?"],
+        "context_set": ""
+        },
+    {"tag": "myname",
+        "patterns": ["Who are you?", "Tell me your name", "Tell me about you"],
+        "responses": ["I'm Tinker. And you?", "Tinker is my name, I'm a Chatbot. And you?", "I'm Chatbot name Tinker. And you?"]
+        },
+    {"tag": "aboutme",
+        "patterns": ["What can you do?", "Tell me your job"],
+        "responses": ["I'm can find weather information", "Tinker can show you weather information"]
+        },
+    {"tag": "yourname",
+        "patterns": ["I'm", "I am", "My name is"],
+        "responses": ["Tinker fell good to talk with you", "Great to talk with you", "A nice name"]
+        },
+    {"tag": "age",
+        "patterns": ["How old are you?"],
+        "responses": ["Tinker have no age", "I don't know my age"]
+        },
+    {"tag": "health",
+        "patterns": ["How are you?", "Do you feel good?"],
+        "responses": ["Tinker is machine, so don't know fine or not", "Maybe fine, I'm not sure because I'm machine"]
+        },
     {"tag": "goodbye",
-    "patterns": ["Bye", "See you later", "Goodbye"],
-    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-    },
+        "patterns": ["Bye", "See you later", "Goodbye", "good bye", "No"],
+        "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
     {"tag": "thanks",
-    "patterns": ["Thanks", "Thank you", "That's helpful"],
-    "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank you so much", "Thanks so much", "Thanks very much", "Thank U"],
+        "responses": ["Happy to help!, do you need anything?", "Any time! Do you need some more?", "My pleasure, can I help you anymore?"]
+        },
     {"tag": "weather",
-    "patterns": ["Today's weather?", "What is the waether today?", "It will be rain?"],
-    "responses": ["Let's me check", "Wait me, I will check", "Today's weather is"]
-    }
+        "patterns": ["Today's weather ?", "What is the weather today ?", "It will be rain?", "Tell me about weather"],
+        "responses": ["Let's me check", "Wait me, I will check", "Today's weather is"]
+        }
 ]}
     
